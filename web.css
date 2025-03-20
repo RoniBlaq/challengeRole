@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.picture{
+ width: 20vw;
+ height: 15vh;
+}
+.reels{
+    font-size: 0.3em;
+    }
+    .white{
+        color: black;
+    }
+    .gold{
+        color:rgb(170, 68, 31)
+    }
+    h1{
+        width: 80vw;
+        margin: 2rem 0;
+    }
+    h3{
+        margin-bottom: 0.4em;
+
+    }
+.first-div{
+    width:53vw;
+    font-size: 0.5em;
+    display: flex;
+    gap:0.5em;
+    font-weight:bold ;
+}
+.second-div{
+    width:53vw;
+    font-size: 0.5em; 
+    display: flex;
+    gap:0.5em;
+    font-weight:bold ;
+    margin-left: 0.7em;
+}
+.blue{
+color: rgb(31, 31, 129);
+}
+
+.css{
+    font-size:0.7em;
+    font-weight: 600;
+}
+.container{
+display: flex;
+width: 90vw;
+margin: 0.7rem 0.5rem;
+}
+h5{
+    margin-left: 13rem;
+    color: rgb(31, 31, 129);
+} 
+@media only screen and (min-width:768px){
+    h1{
+        width:40vw;
+    }
+    .container{
+        width:77vw;
+        font-size: 1.5em;
+        margin: 4rem 4rem;
+    }
+    h5{
+        margin-left: 38rem;
+    }
+    .reels{
+        font-size: 0.5em;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .picture{
+        width: 10vw;
+    }
+    h1{
+        width:27vw;
+        font-size: 3rem;
+    }
+    .container{
+        width: 58vw;
+        font-size: 2rem;
+    }
+    main{
+     width:55vw;
+     margin: 5rem auto;
+    }
+h5{
+    font-size: 1em;
+}
+.css{
+    font-size:1rem ;
+}
+.reels{
+    font-size: 0.7em;
+   
+}
+}
